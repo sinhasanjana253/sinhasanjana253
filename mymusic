@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+
+*{
+ margin: 0; padding: 0;
+ box-sizing:border-box; font-family: 'Maven Pro', sans-serif;
+}
+
+h1{
+ text-align: center; font-size: 1.4rem;
+ color:darkslateblue; padding: 30px 0px; 
+}
+
+main{
+ width: 90%; height: 7000px;
+ margin: auto; border: 2px solid black;
+ display:flex; justify-content:space-around;
+ align-items:center; flex-wrap: wrap;
+}
+
+div{
+ width: 30%; height: 270px;
+ /*border: 1px solid red;*/
+ box-shadow: 2px 2px 5px grey;
+ border-radius: 10px; cursor: pointer;
+
+}
+
+.a{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS58sVsiy8HvDi5aUvkrvZegL3SbN4GfkI1wdIObtzU-ayuI5aG&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.b{
+background-image: url(https://akns-images.eonline.com/eol_images/Entire_Site/2018922/rs_600x600-181022141355-600-enrique-iglesias.jpg?fit=around|1200:1200&crop=1200:1200;center,top&output-quality=90);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.c{
+background-image: url(https://cdn.inquisitr.com/wp-content/uploads/2020/03/Katy-Perry-2-625x302.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.d{
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/da/Justin_Bieber_in_2015.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.e{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSLuDCr3cw2XjA5924kx2ZX0-g35zj4XeqyCCPL84iAiRz-dHKL&usqp=CAU);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.f{
+background-image: url(https://i.pinimg.com/originals/23/1f/ef/231feff2a2cd662015a4ad4965f5dfbf.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+.g{
+background-image: url(https://image.shutterstock.com/z/stock-photo-band-of-musicians-plays-132936827.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.h{
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Post_Malone_%2828150750483%29.jpg/1200px-Post_Malone_%2828150750483%29.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.i{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSdmPeQg_FBZt3DJ-EeaHhcYSk0ts9WpLCzgL0YA27hoGxVchAN&usqp=CAU);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .j{
+            background-image: url(https://img.theculturetrip.com/768x432/wp-content/uploads/2016/06/amit_trivedi_at_nh7_weekender_2014-2-e1467651602503.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }    
+        .k{
+            background-image: url(https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/03/18/662082-arijitsingh-031918.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .l{
+            background-image: url(https://www.easterneye.biz/wp-content/uploads/2019/10/Lead-Armaan-Malik-1.jpeg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .m{
+            background-image: url(https://images.newindianexpress.com/uploads/user/imagelibrary/2019/1/20/w900X450/Sonu_Nigam_PTI.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .n{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRG69BosWiuK9RwRoV_vpC_fygYxn3UP6ymIk_fo7IIYHymtf9D&usqp=CAU);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .o{
+            background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/201907/udit_narayan-770x433.jpeg?ImUNAuLAIFKlcNUKQtGqiGHy5Bh6HQ7q);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .p{
+            background-image: url(https://i.pinimg.com/originals/9f/f5/ae/9ff5ae8f4ef00023143f40a626151504.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .q{
+            background-image: url(https://www.orissapost.com/wp-content/uploads/2018/10/CdSzUBjUsAAwQpM.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .r{
+            background-image: url(https://tomatoheart.com/wp-content/uploads/2017/02/Shirley-Setia-Songs-Age-Wikipedia-tomatoheart-18.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .s{
+            background-image: url(https://i1.wp.com/www.vinilonegro.com/wp-content/uploads/2020/02/Eminem-59-e1581337599417.jpg?fit=600%2C400&ssl=1);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .t{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTAgHQIkosfDsXE0CzaQUVWC4vYt2AnbRI_KXRUcm0jdcdY-xyh&usqp=CAU);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .u{
+            background-image: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/07/12/15/ed-sheeran.jpg?w968h681);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .v{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-CIN5igUgGiUnqEq6I7K1tuhljLQPuknR-m0jGABWu4Z8lgfU&usqp=CAU);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .w{background-image: url(https://static1.squarespace.com/static/56c346b607eaa09d9189a870/587fe9d4d2b857e5d49ca782/5e586d0b3baa20214a0767c1/1582853867386/Flaunt+Magazine+J+Balvin+GUESS%3F%2C+Inc.+4.jpg?format=1500w);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .x{
+            background-image: url(https://images.pexels.com/photos/1327430/pexels-photo-1327430.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .y{background-image: url(https://www.nme.com/wp-content/uploads/2019/03/Post-Malone-London-2.jpg);
+background-size: 100% 100%;
+        background-repeat: no-repeat;
+        }
+        .z{
+            background-image: url(https://www.aljazeera.com/mritems/imagecache/mbdxxlarge/mritems/Images/2019/11/21/888f88c00f2f448eb8cbe262f92ef19d_18.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .aa{
+          background-image: url(https://i.ytimg.com/vi/FeBZdJdMtOs/maxresdefault.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;  
+        }
+        .ab{
+            background-image: url(https://i.ytimg.com/vi/Uj2uL7uyfJ4/maxresdefault.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ac{
+            background-image: url(https://i.pinimg.com/originals/9f/f6/dc/9ff6dc3930769a0448fbc192a10d325c.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ad{
+            background-image: url(https://i.pinimg.com/originals/3e/a7/72/3ea77280740699c8547071b7129752e4.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ae{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSEagmPlHE-oVzBU8fQ3eDD3IXlBzaAp28eEAbIe3PjziiT3rjD&usqp=CAU);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .af{
+            background-image: url(https://images.livemint.com/img/2019/04/11/600x338/Pritam_Seattle_6854_-_Copy_1554969965777.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ag{
+            background-image: url(https://amp.thenational.ae/image/policy:1.216441:1499320282/image/jpeg.jpg?f=16x9&w=1200&$p$f$w=dfa40e8);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ah{
+            background-image: url(https://www.partymap.in/actor-amitabh-bhattacharya/actor-amitabh-bhattacharya_slideshow4.jpg?5e53184f0f954);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ai{
+            background-image: url(https://www.thenational.ae/image/policy:1.697587:1573907794/ARR_Concertpic.jpg?f=16x9&w=1200&$p$f$w=1839ef9);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .aj{
+            background-image: url(https://www.glamsham.com/Uploads/articleImages/youngest-music-composer-and-singer-amaal-mallik-performing-live-at-inorbit-mall-malad-on-account-of-inorbit-malad-15th-anniversary-and-republic-day-20190128101305362.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ak{
+            background-image: url(https://static.toiimg.com/photo/msid-64626021/64626021.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .al{
+            background-image: url(https://i.ytimg.com/vi/UjauqC0DcsQ/maxresdefault.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .am{
+            background-image: url(https://i.ytimg.com/vi/ns9Qmos288Y/maxresdefault.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .an{
+            background-image: url(https://www.linkinpark.com/sites/g/files/g2000008491/files/2019-04/LP2.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ao{
+            background-image: url(https://i.ytimg.com/vi/2VGy8y5ShPA/hqdefault.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ap{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREUDxcvBFoVTjJhwbK7qGPhM8TOSiMWqROaI-X08BkZxYL7p6r&usqp=CAU);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .aq{
+            background-image: url(https://i.guim.co.uk/img/media/158ee2f622a6ff6edc8a2ef721a097db450e1318/0_72_3000_1800/master/3000.jpg?width=700&quality=85&auto=format&fit=max&s=5bcfcd959a05d4f136599cec17f9e6ed);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ar{
+            background-image: url(https://static.toiimg.com/photo/msid-64626021/64626021.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .as{
+            background-image: url(https://images.pexels.com/photos/167445/pexels-photo-167445.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+            background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .at{
+            background-image: url(https://images-na.ssl-images-amazon.com/images/I/C1euUan+TUS._CR0,0,3840,2880_._SL1000_.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .au{
+            background-image: url(https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-2ufe01efbqeqkp7696q7hoehe2-20170324220958.Medi.jpeg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .av{
+            background-image: url(https://smedia2.intoday.in/aajtak/images/stories/052019/aaaaa_1558711526_618x347.jpeg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .aw{
+            background-image: url(https://www.outlookindia.com/public/uploads/gallery/20181217/Asha-bosle_20181218.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ax{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSo-N24ix9m1QmI2k5PGQ4lW8QSGN-lPVZX8HRK3PatqT4huHeV&usqp=CAU);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ay{
+            background-image: url(https://images.pexels.com/photos/2479315/pexels-photo-2479315.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .az{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLaXxQsB_U8pri6G_5gGf8JqL80lrGjLxnyqqLUPpLvQA193hm&usqp=CAU);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .ba{
+            background-image: url(https://i.pinimg.com/564x/97/77/6f/97776f2058a724a5677eca90bd73c25d.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bb{
+            background-image: url(https://pbs.twimg.com/media/DduL_rVU8AAl9ls.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bc{
+            background-image: url(https://i.ytimg.com/vi/AwRY3_Qf89k/hqdefault.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bd{
+            background-image: url(https://images.pexels.com/photos/417473/pexels-photo-417473.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .be{
+            background-image: url(https://images.pexels.com/photos/258732/pexels-photo-258732.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bf{
+            background-image: url(https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bg{
+            background-image: url(https://images.pexels.com/photos/167637/pexels-photo-167637.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bh{
+            background-image: url(https://images.pexels.com/photos/167627/pexels-photo-167627.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 );
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bi{
+            background-image: url(https://images.pexels.com/photos/167598/pexels-photo-167598.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bj{
+            background-image: url(https://images.pexels.com/photos/167564/pexels-photo-167564.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bk{
+            background-image: url(https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bl{
+            background-image: url(https://images.pexels.com/photos/167479/pexels-photo-167479.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bm{
+            background-image: url(https://images.pexels.com/photos/167467/pexels-photo-167467.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bn{
+            background-image: url(https://images.pexels.com/photos/167466/pexels-photo-167466.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bo{
+            background-image: url(https://images.pexels.com/photos/1813192/pexels-photo-1813192.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bp{
+            background-image: url(https://images.pexels.com/photos/1493755/pexels-photo-1493755.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bq{
+            background-image: url(https://images.pexels.com/photos/1588075/pexels-photo-1588075.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .br{
+            background-image: url(https://images.pexels.com/photos/1416969/pexels-photo-1416969.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bs{
+            background-image: url(https://images.pexels.com/photos/1299438/pexels-photo-1299438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+        .bt{
+            background-image: url(https://images.pexels.com/photos/1327426/pexels-photo-1327426.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+        }
+    </style>
+
+</head>
+<body>
+
+<h1><i class="fa fa-music" aria-hidden="true"></i> My Music Player<i class="fa fa-music" aria-hidden="true"></i> </h1>
+<h1>  DONATION FOR SUPPORT:    PhonePay = shreygupta25aug@gmail.com     GooglePay: shreygupta25aug@okhdfcbank
+ Believe me all this money will be used to make more quality videos and to make my channel grow. So that I can always provide you awesome free videos :)  </h1>
+
+<main>
+  
+<div class="a song">a</div> 
+<div class="b song">b</div> 
+<div class="c song">c</div> 
+<div class="d song">d</div> 
+<div class="e song">e</div> 
+<div class="f song">f</div>
+<div class="g song">g</div> 
+<div class="h song">h</div> 
+<div class="i song">i</div>
+<div class="j song">j</div>
+<div class="k song">k</div>
+<div class="l song">l</div>
+<div class="m song">m</div>
+<div class="n song">n</div>
+<div class="o song">o</div>
+<div class="p song">p</div>
+<div class="q song">q</div>
+<div class="r song">r</div>    
+<div class="s song">s</div>    
+<div class="t song">t</div>   
+<div class="u song">u</div>    
+<div class="v song">v</div>    
+<div class="w song">w</div>    
+<div class="x song">x</div>    
+<div class="y song">y</div>    
+<div class="z song">z</div>        
+<div class="aa song">aa</div>        
+<div class="ab song">ab</div>        
+<div class="ac song">ac</div>        
+<div class="ad song">ad</div>        
+<div class="ae song">ae</div>        
+<div class="af song">af</div>    
+<div class="ag song">ag</div>    
+<div class="ah song">ah</div>        
+<div class="ai song">ai</div> 
+<div class="aj song">aj</div>  
+<div class="ak song">ak</div> 
+<div class="al song">al</div> 
+<div class="am song">am</div> 
+<div class="an song">an</div> 
+<div class="ao song">ao</div> 
+<div class="ap song">ap</div>
+<div class="aq song">aq</div> 
+<div class="ar song">ar</div> 
+<div class="as song">as</div>
+<div class="at song">at</div>
+<div class="au song">au</div>
+<div class="av song">av</div>
+<div class="aw song">aw</div>
+<div class="ax song">ax</div>
+<div class="ay song">ay</div>
+<div class="az song">az</div>
+<div class="ba song">ba</div>
+<div class="bb song">bb</div>    
+<div class="bc song">bc</div>    
+<div class="bd song">bd</div>   
+<div class="be song">be</div>    
+<div class="bf song">bf</div>    
+<div class="bg song">bg</div>    
+<div class="bh song">bh</div>    
+<div class="bi song">bi</div>    
+<div class="bj song">bj</div>        
+<div class="bk song">bk</div>        
+<div class="bl song">bl</div>        
+<div class="bm song">bm</div>        
+<div class="bn song">bn</div>        
+<div class="bo song">bo</div>        
+<div class="bp song">bp</div>    
+<div class="bq song">bq</div>    
+<div class="br song">br</div>        
+<div class="bs song">bs</div> 
+<div class="bt song">bt</div>    
+    </main>
+<script>
+ 
+var divlenght = document.querySelectorAll('.song').length;
+console.log(divlenght);
+
+for(var i=0; i<divlenght; i++) {
+ var demo = document.querySelectorAll('.song')[i].addEventListener('click',playsong);
+
+ var demo = document.querySelectorAll('.song')[i].addEventListener('dblclick',pausesong);
+}
+
+var song1 = new Audio();
+song1.src = "music/Taylor Swift - Blank Space.mp3";   
+    
+var song2 = new Audio();    
+song2.src = "music/Post Malone, Swae Lee - Sunflower (Spider-Man Into the Spider-Verse).mp3";
+    
+var song3 = new Audio();
+song3.src ="music/ZAYN, Taylor Swift - I Don’t Wanna Live Forever (Fifty Shades Darker).mp3";  
+    
+var song4 = new Audio();
+song4.src = "music/POP SMOKE - WOLVES ft. NAV (Official Audio).mp3";
+    
+var song5 = new Audio();
+song5.src = "music/Photograph - Ed Sheeran.mp3";
+    
+var song6 = new Audio();
+song6.src = "music/Maroon 5 - Memories.mp3";
+    
+var song7 = new Audio();
+song7.src = "music/Maroon 5 - Girls Like You ft. Cardi B.mp3";
+    
+var song8 = new Audio();
+song8.src = "music/Justin Bieber - Intentions ft. Quavo.mp3";
+    
+var song9 = new Audio();
+song9.src = "music/I trying so hard.mp3";
+    
+var song10 = new Audio();
+song10.src = "music/AUD-20190902-WA0007.mp3";
+var song11 = new Audio();
+    
+song11.src = "music/AUD-20200320-WA0007.mp3";
+    
+var song12 = new Audio();  
+song12.src = "music/AUD-20200410-WA0017.mp3";
+    
+var song13 = new Audio();
+song13.src = "music/AUD-20200410-WA0018.mp3";
+var song14 = new Audio();
+song14.src = "music/AUD-20200410-WA0019.mp3";
+var song15 = new Audio();
+song15.src = "music/AUD-20200410-WA0021.mp3";   
+var song16 = new Audio();
+song16.src = "music/AUD-20200410-WA0016.mp3";
+var song17 = new Audio();
+song17.src = "music/AUD-20200410-WA0022.mp3";
+var song18 = new Audio();
+song18.src = "music/AUD-20200410-WA0023.mp3";
+var song19 = new Audio();
+song19.src = "music/Enrique Iglesias - Why Not Me.mp3";
+var song20 = new Audio();
+song20.src = "music/Ed Sheeran & Justin Bieber - I Don t Care [Official].mp3";
+var song21 = new Audio();
+song21.src ="music/AUD-20200410-WA0062.mp3";
+var song22 = new Audio();
+song22.src = "music/AUD-20200410-WA0061.mp3";
+var song23 = new Audio();
+song23.src = "music/AUD-20200410-WA0060.mp3";
+var song24 = new Audio();
+song24.src = "music/AUD-20200410-WA0059.mp3";
+var song25 = new Audio();
+song25.src = "music/AUD-20200410-WA0058.mp3";
+var song26 = new Audio();
+song26.src = "music/AUD-20200410-WA0057.mp3";
+var song27 = new Audio();
+song27.src = "music/AUD-20200410-WA0056.mp3";
+var song28 = new Audio();
+song28.src = "music/AUD-20200410-WA0024.mp3";
+var song29 = new Audio();
+song29.src = "music/AUD-20200410-WA0025.mp3";
+var song30 = new Audio();
+song30.src = "music/AUD-20200410-WA0026.mp3"
+var song31 = new Audio();
+song31.src = "music/AUD-20200410-WA0027.mp3";
+var song32 = new Audio();
+song32.src = "music/AUD-20200410-WA0028.mp3";
+var song33 = new Audio();
+song33.src = "music/AUD-20200410-WA0030.mp3";
+var song34 = new Audio();
+song34.src = "music/AUD-20200410-WA0031.mp3";
+var song35 = new Audio();
+song35.src = "music/AUD-20200410-WA0032.mp3";
+var song36 = new Audio();
+song36.src = "music/AUD-20200410-WA0033.mp3";
+var song37 = new Audio();
+song37.src = "music/AUD-20200410-WA0038.mp3";
+
+    
+function playsong(){
+ var songId = this.innerHTML;
+ console.log(songId);
+
+ switch (songId) {
+  case "a":
+   song1.play();
+   break;
+ case "b":
+   song2.play();
+   break;
+  case "c":
+   song3.play();
+   break;
+  case "d":
+   song4.play();
+   break;
+  case "e":
+   song5.play();
+   break;
+  case "f":
+   song6.play();
+   break;
+  case "g":
+   song7.play();
+   break;
+  case "h":
+   song8.play();
+   break;
+case "i":
+   song9.play();
+   break;
+    case "j":
+   song10.play();
+   break;
+     case "k":
+   song11.play();
+   break;
+     case "l":
+   song12.play();
+   break;
+     case "m":
+   song13.play();
+   break;
+     case "n":
+   song14.play();
+   break;
+     case "o":
+   song15.play();
+   break;
+  case "p":
+   song16.play();
+   break;
+     case "q":
+   song17.play();
+   break;
+     case "r":
+   song18.play();
+   break;
+     case "s":
+   song19.play();
+   break;
+  case "t":
+   song20.play();
+   break;
+  case "u":
+   song21.play();
+   break;
+  case "v":
+   song22.play();
+   break;
+  case "w":
+   song23.play();
+   break;
+  case "x":
+   song24.play();
+   break;
+  case "y":
+   song25.play();
+   break;
+  case "z":
+   song26.play();
+   break;
+  case "aa":
+   song27.play();
+   break;
+    case "ab":
+   song28.play();
+   break;
+     case "ac":
+   song29.play();
+   break;
+     case "ad":
+   song30.play();
+   break;
+     case "ae":
+   song31.play();
+   break;
+     case "af":
+   song32.play();
+   break;
+     case "ag":
+   song33.play();
+   break;
+     case "ah":
+   song34.play();
+   break;
+  case "ai":
+   song35.play();
+   break;
+    case "aj":
+   song36.play();
+   break;
+    case "ak":
+   song37.play();
+   break;
+         case "al":
+   song1.play();
+   break;
+ case "am":
+   song2.play();
+   break;
+  case "an":
+   song3.play();
+   break;
+  case "ao":
+   song4.play();
+   break;
+  case "ap":
+   song4.play();
+   break;
+  case "aq":
+   song6.play();
+   break;
+  case "ar":
+   song7.play();
+   break;
+  case "as":
+   song8.play();
+   break;
+case "at":
+   song9.play();
+   break;
+    case "au":
+   song10.play();
+   break;
+     case "av":
+   song11.play();
+   break;
+     case "aw":
+   song12.play();
+   break;
+     case "ax":
+   song13.play();
+   break;
+     case "ay":
+   song14.play();
+   break;
+     case "az":
+   song15.play();
+   break;
+  case "ba":
+   song16.play();
+   break;
+     case "bb":
+   song17.play();
+   break;
+     case "bc":
+   song18.play();
+   break;
+     case "bd":
+   song19.play();
+   break;
+  case "be":
+   song20.play();
+   break;
+  case "bf":
+   song21.play();
+   break;
+  case "bg":
+   song22.play();
+   break;
+  case "bh":
+   song23.play();
+   break;
+  case "bi":
+   song24.play();
+   break;
+  case "bj":
+   song25.play();
+   break;
+  case "bk":
+   song26.play();
+   break;
+  case "bl":
+   song27.play();
+   break;
+    case "bm":
+   song28.play();
+   break;
+     case "bn":
+   song29.play();
+   break;
+     case "bo":
+   song30.play();
+   break;
+     case "bp":
+   song31.play();
+   break;
+     case "bq":
+   song32.play();
+   break;
+     case "br":
+   song33.play();
+   break;
+     case "bs":
+   song34.play();
+   break;
+  case "bt":
+   song35.play();
+   break;
+      
+           default:
+   console.log("wrong input");
+   break;
+ }
+}
+
+function pausesong(){
+ var songId = this.innerHTML;
+ console.log(songId);
+
+ switch (songId) {
+  case "a":
+   song1.pause();
+   break;
+  case "b":
+   song2.pause();
+   break;
+case "c":
+   song3.pause();
+   break;
+case "d":
+   song4.pause();
+   break;
+ case "e":
+   song5.pause();
+   break;
+ case "f":
+   song6.pause();
+   break;
+ case "g":
+   song7.pause();
+   break;
+ case "h":
+   song8.pause();
+   break;
+case "i":
+   song9.pause();
+   break;
+     case "j":
+   song10.pause();
+   break;
+     case "k":
+   song11.pause();
+   break;
+     case "l":
+   song12.pause();
+   break;
+  case "m":
+   song13.pause();
+   break;
+  case "n":
+   song14.pause();
+   break;
+     case "o":
+   song15pause();
+   break;
+     case "p":
+   song16.pause();
+   break;
+  case "q":
+   song17.pause();
+   break;
+     case "r":
+   song18.pause();
+   break;
+     case "s":
+   song19.pause();
+   break;
+  case "t":
+   song20.pause();
+   break;
+ case "u":
+   song21.pause();
+   break;
+  case "v":
+   song22.pause();
+   break;
+  case "w":
+   song23.pause();
+   break;
+case "x":
+   song24.pause();
+   break;
+     case "y":
+   song25.pause();
+   break;
+ case "z":
+   song26.pause();
+   break;
+  case "aa":
+   song27.pause();
+   break;
+     case "ab":
+   song28.pause();
+   break;
+     case "ac":
+   song29.pause();
+   break;
+ case "ad":
+   song30.pause();
+   break;
+     case "ae":
+   song31.pause();
+   break;
+   case "af":
+   song32.pause();
+   break;
+     case "ag":
+   song33pause();
+   break;
+     case "ah":
+   song34.pause();
+   break;
+     case "ai":
+   song35.pause();
+   break;
+  case "aj":
+   song36.pause();
+   break;
+         case "ak":
+   song37.pause();
+   break;
+         
+case "al":
+   song1.pause();
+   break;
+  case "am":
+   song2.pause();
+   break;
+case "an":
+   song3.pause();
+   break;
+case "ao":
+   song4.pause();
+   break;
+ case "ap":
+   song5.pause();
+   break;
+ case "aq":
+   song6.pause();
+   break;
+ case "ar":
+   song7.pause();
+   break;
+ case "as":
+   song8.pause();
+   break;
+case "at":
+   song9.pause();
+   break;
+     case "au":
+   song10.pause();
+   break;
+     case "av":
+   song11.pause();
+   break;
+     case "aw":
+   song12.pause();
+   break;
+  case "ax":
+   song13.pause();
+   break;
+  case "ay":
+   song14.pause();
+   break;
+     case "az":
+   song15.pause();
+   break;
+     case "ba":
+   song16.pause();
+   break;
+  case "bb":
+   song17.pause();
+   break;
+     case "bc":
+   song18.pause();
+   break;
+     case "bd":
+   song19.pause();
+   break;
+  case "be":
+   song20.pause();
+   break;
+ case "bf":
+   song21.pause();
+   break;
+  case "bg":
+   song22.pause();
+   break;
+  case "bh":
+   song23.pause();
+   break;
+case "bi":
+   song24.pause();
+   break;
+     case "bj":
+   song25.pause();
+   break;
+ case "bk":
+   song26.pause();
+   break;
+  case "bl":
+   song27.pause();
+   break;
+     case "bm":
+   song28.pause();
+   break;
+     case "bn":
+   song29.pause();
+   break;
+ case "bo":
+   song30.pause();
+   break;
+     case "bp":
+   song31.pause();
+   break;
+   case "bq":
+   song32.pause();
+   break;
+     case "br":
+   song33.pause();
+   break;
+     case "bs":
+   song34.pause();
+   break;
+     case "bt":
+   song35.pause();
+   break;
+
+     default:
+   console.log("wrong input");
+   break;
+ }
+}
+</script>
+</body>
+</html>
