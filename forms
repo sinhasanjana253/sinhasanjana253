@@ -1,0 +1,150 @@
+Skip to content
+Why GitHub? 
+Team
+Enterprise
+Explore 
+Marketplace
+Pricing 
+Search
+Sign in
+Sign up
+Gupta-Shrey855
+/
+MUSIC--WEBSITE-STORE-K19LC-G-1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+MUSIC--WEBSITE-STORE-K19LC-G-1/COLLEGE PROJECTS/forms3.html
+@Gupta-Shrey855
+Gupta-Shrey855 MUSIC STORE PROJECT
+Latest commit 5acb80c on Apr 11, 2020
+ History
+ 1 contributor
+107 lines (103 sloc)  3.9 KB
+  
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>registration page design</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.sin.css">
+        <style>
+            body{
+                background-image: url(https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+                margin-top:120px; 
+                    !important;
+                background-size: cover;
+                background-position: center;
+            }
+            .register-left{
+                text-align:center;
+                color:black;
+                padding: 10px;
+                font-family: "Times new Roman",Times,serif;
+            }
+            .register-left p{
+                padding:20px 20px 0px;
+            }
+            .register-left .btn-primary{
+                border-radius:1.5rem;
+                border:none;
+                width: 120px;
+                background: #000;
+                font-weight: 600;
+                color:#777;
+                margin-top: 20px;
+                padding: 10px;
+            }
+            .register-left .btn-primary:hover{
+                background:aliceblue;
+                padding-left: 20px;
+            }
+            .register-right{
+                text-align: justify;
+                float:right;
+                line-height: 40px;
+                height: 300px;
+                width: 300px;
+                border: 3px solid rgb(0,0,0);
+                padding:50px;
+                border-radius:100px;
+                background:antiquewhite;
+                border-top-left-radius: 20% 50%;
+                border-bottom-left-radius: 20% 50%;
+            }
+            .register-right h2{
+                text-align:center;
+                margin: 20px;
+                color:dimgrey;
+            }
+            .register-form{
+                padding: 20px;
+                border-image-outset: 5px;
+            }
+            .register-right .btn-primary{
+                border-radius: 1.5rem;
+                border: none;
+                width: 120px;
+                background:#ff9800;
+                font-weight: 600;
+                color: #fff;
+                font-family: "Lucida Console";
+                margin-top:30px;
+                padding: 10px;
+            }
+            .register-right .btn-primary:hover{
+                background: #000;
+            }
+        
+        </style>
+           
+     </head>
+            <body>
+<div class="container">
+    <div class="col-md-10 offset=md-1">
+        <div class="row">
+            <div class="col-md-5 register-left">
+                <h2>Join Us</h2>
+                <p style="font-size: 1.2em">subscribe gaana You tube Channel to listen more songs</p>
+                <button type="button" class="btn btn-primary">About Us</button>
+            </div>
+            <div class="col-md-7 register-right">
+                <h2>Register Here</h2>
+                <div class="registration-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username"></div>
+                    <div class="form-group"><input type="email" class="form-control" placeholder="Email-id:"></div>
+                    <div class="form-group"><input type="password" class="form-control" placeholder="Password:"></div>
+                    <div><input type="number" class="form-control" placeholder="Mobile no."></div>
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            
+            </div>
+        
+        </div>
+    </div>
+  </div>
+</body>
+</html>  
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
